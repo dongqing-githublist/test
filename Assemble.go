@@ -41,6 +41,10 @@ type Assemble struct {
 
 }
 
+func test() {
+	var_dump("nihao,world");
+}
+
 func (Assemble) TableName() string  {
 	return "assemble"
 }
